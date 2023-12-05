@@ -214,6 +214,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\Model1.cs" />
     <Compile Include="Models\Users.cs" />

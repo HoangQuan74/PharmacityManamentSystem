@@ -30,6 +30,8 @@ namespace Pharmacity_Management_System.Models
             // Ví dụ:
             this.ToTable("Users"); // Đặt tên bảng là "Users"
             this.HasKey(x => x.id); // Đặt khóa chính
+            this.Property(x => x.fullName).HasColumnType("varchar").HasMaxLength(100);
+            this.Property(x => x.email).HasColumnType("varchar").HasMaxLength(50);
 
             // Các cấu hình khác tùy thuộc vào yêu cầu của bạn
         }

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Linq;
@@ -16,6 +16,8 @@ namespace Pharmacity_Management_System.Models
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            // Thêm các cấu hình tại đây
+            modelBuilder.Configurations.Add(new UsersConfiguration());
         }
     }
 }
