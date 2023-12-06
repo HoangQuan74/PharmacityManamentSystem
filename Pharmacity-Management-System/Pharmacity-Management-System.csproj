@@ -215,9 +215,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Animals.cs" />
     <Compile Include="Models\BaseModel.cs" />
+    <Compile Include="Models\BillDetails.cs" />
+    <Compile Include="Models\Bills.cs" />
+    <Compile Include="Models\BusinessPartners.cs" />
+    <Compile Include="Models\Deliveries.cs" />
+    <Compile Include="Models\DetailDeliveries.cs" />
     <Compile Include="Models\Model1.cs" />
+    <Compile Include="Models\OtherExpenses.cs" />
+    <Compile Include="Models\Payments.cs" />
+    <Compile Include="Models\Products.cs" />
+    <Compile Include="Models\Revenues.cs" />
+    <Compile Include="Models\ShelfLevels.cs" />
+    <Compile Include="Models\Shelfs.cs" />
+    <Compile Include="Models\StorageRequirements.cs" />
+    <Compile Include="Models\TransportCompany.cs" />
+    <Compile Include="Models\Units.cs" />
+    <Compile Include="Models\UsageByAnimal.cs" />
     <Compile Include="Models\Users.cs" />
+    <Compile Include="Models\Warehouses.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
