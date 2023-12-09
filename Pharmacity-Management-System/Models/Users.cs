@@ -41,6 +41,7 @@ namespace Pharmacity_Management_System.Models
 
         [Column(name: "salary", TypeName = "Money")]
         public decimal salary { get; set; }
+
     }
 
     public class UsersConfiguration : EntityTypeConfiguration<Users>
