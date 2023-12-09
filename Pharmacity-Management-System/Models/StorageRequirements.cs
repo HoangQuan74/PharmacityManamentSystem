@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Pharmacity_Management_System.Models
 {
-    public class StorageRequirements : BaseModel
+    public class StorageRequirements
     {
         [Key]
         [Column(name: "id", TypeName = "int")]

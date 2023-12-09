@@ -13,7 +13,7 @@ using System.Reflection.Emit;
 
 namespace Pharmacity_Management_System.Models
 {
-    public class Payments : BaseModel
+    public class Payments
     {
         [Key]
         [Column(name: "id", TypeName = "int")]

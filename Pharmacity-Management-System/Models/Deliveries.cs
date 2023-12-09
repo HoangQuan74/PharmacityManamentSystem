@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Pharmacity_Management_System.Models
 {
-    public class Deliveries : BaseModel
+    public class Deliveries
     {
         [Key]
         [Column(name: "id", TypeName = "int")]

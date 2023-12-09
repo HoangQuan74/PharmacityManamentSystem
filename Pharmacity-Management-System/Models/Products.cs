@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Pharmacity_Management_System.Models
 {
-    public class Products : BaseModel
+    public class Products
     {
         [Key]
         [Column(name: "id", TypeName = "int")]
@@ -36,6 +36,9 @@ namespace Pharmacity_Management_System.Models
         [Column("price", TypeName = "money")]
         public decimal price { get; set; }
 
+        [Column("quality", TypeName = "int")]
+        public int quanlity { get; set; }
+
         [ForeignKey("StorageRequirements")]
         [Column("storeReqId", TypeName = "int")]
         public int storeReqId { get; set; }
@@ -56,7 +59,7 @@ namespace Pharmacity_Management_System.Models
             this.Property(x => x.name).HasColumnType("varchar").HasMaxLength(100);
             this.Property(x => x.productForm).HasColumnType("varchar").HasMaxLength(100);
             this.Property(x => x.uses).HasColumnType("varchar").HasMaxLength(500);
-            this.Property(x => x.ingredient).HasColumnType("varchar").HasMaxLength(100);
+            this.Property(x => x.ingredient).HasColumnType("varchar").HasMaxLength(200);
         }
     }
 }

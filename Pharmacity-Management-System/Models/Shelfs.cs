@@ -12,7 +12,7 @@ using System.Reflection;
 
 namespace Pharmacity_Management_System.Models
 {
-    public class Shelfs : BaseModel
+    public class Shelfs
     {
         [Key]
         [Column(name: "id", TypeName = "int")]

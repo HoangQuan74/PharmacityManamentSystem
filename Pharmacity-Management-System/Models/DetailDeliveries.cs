@@ -9,7 +9,7 @@ using System.Data.Entity.ModelConfiguration;
 
 namespace Pharmacity_Management_System.Models
 {
-    public class DetailDeliveries : BaseModel
+    public class DetailDeliveries
     {
         [Key]
         [Column(name: "id", TypeName = "int")]
