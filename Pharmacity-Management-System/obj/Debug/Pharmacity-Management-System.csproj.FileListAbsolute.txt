@@ -260,3 +260,6 @@ F:\Study Documents\HKI_2023 - 2024_Nam4\SE100\Project\PharmacityManamentSystem\P
 F:\Study Documents\HKI_2023 - 2024_Nam4\SE100\Project\PharmacityManamentSystem\Pharmacity-Management-System\obj\Debug\Pharmacity-Management-System.csproj.CopyComplete
 F:\Study Documents\HKI_2023 - 2024_Nam4\SE100\Project\PharmacityManamentSystem\Pharmacity-Management-System\obj\Debug\Pharmacity-Management-System.exe
 F:\Study Documents\HKI_2023 - 2024_Nam4\SE100\Project\PharmacityManamentSystem\Pharmacity-Management-System\obj\Debug\Pharmacity-Management-System.pdb
+F:\Study Documents\HKI_2023 - 2024_Nam4\SE100\Project\PharmacityManamentSystem\Pharmacity-Management-System\obj\Debug\Views\BusinessPartner\BusinessPartner.g.cs
+F:\Study Documents\HKI_2023 - 2024_Nam4\SE100\Project\PharmacityManamentSystem\Pharmacity-Management-System\obj\Debug\App.baml
+F:\Study Documents\HKI_2023 - 2024_Nam4\SE100\Project\PharmacityManamentSystem\Pharmacity-Management-System\obj\Debug\Views\BusinessPartner\BusinessPartner.baml
